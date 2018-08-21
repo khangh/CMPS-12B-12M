@@ -1,0 +1,16 @@
+Name: Sophia Tacderas
+ID: 1465379
+Class: CMPS 12M
+Assignment: lab 4
+Due: 10/28/16, 10 pm
+Files for this assignment: README, Makefile, and charType.c
+
+charType.c
+Reads every line of input file and for each line, displays the number of characters of each
+character type and displays these character types in strings in the output file.
+(Borrows/modifies code from alphaNum.c.)
+
+Makefile:
+Runs charType.c on a terminal. Compile by typing make -f Makefile (as long as
+charType.c is included in the same directory), and then run by typing charType
+along with the program arguments (the input and output files).
