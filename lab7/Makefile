@@ -5,7 +5,6 @@
 #  Borrowed from CMPS 12B website: Examples\Programs\pa3
 #
 #  Name: Sophia Tacderas
-#  ID: 1465379
 #  Due: 12/2/16, 10 pm
 #------------------------------------------------------------------------------
 
