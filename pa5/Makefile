@@ -2,7 +2,6 @@
 # Makefile for DictionaryClient.c with macros
 #
 # Name: Sophia Tacderas
-# ID: 1465379
 # Assignment: pa5
 # Due: 12/2/16, 10 pm
 #------------------------------------------------------------------------------
