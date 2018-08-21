@@ -1,0 +1,45 @@
+------------------------------------
+Name: Sophia Tacderas
+ID: 1465379
+Class: CMPS 12M
+Assignment: lab 6
+Due: 11/18/16, 10 pm
+------------------------------------
+Files for this assignment:
+README
+Makefile
+List.java
+ListTest.java
+ListClient.java
+ListInterface.java
+ListIndexOutOfBoundsException.java
+------------------------------------
+Makefile:
+Runs ListClient on a terminal. Compile by typing make -f Makefile (as long as
+ListClient and the other java files are included in the same directory),
+and then run by typing ListClient. This Makefile contains wildcards and pattern
+substitutions that allow other java files existing in the same directory to be compiled
+along with ListClient (the main class).
+
+List.java:
+Implements the List ADT interface with 6 ADT operations: isEmpty() (checks for empty
+list), size() (returns number of items), get() (returns item at position index),
+add() (adds an item to the list at position index), remove() (deletes an item from position
+index), and removeAll() (resets the list to an empty state). Also includes toString()
+(prints the entire list) and equals() (compares current list with another).
+This file borrows/modifies code from: IntegerList.java, Dictionary.java
+
+ListTest.java:
+Tests the Java Generics Linked List implementation.
+This file borrows/modifies code from: IntegerListTest.java
+
+ListClient.java:
+A test client for the List ADT. Was not altered at all.
+
+ListInterface.java:
+Interface for the List ADT. Was not altered at all.
+
+ListIndexOutOfBoundsException.java:
+Throws an exception if the argument for the index is not inside
+the index's bounds of the list. Used in get(), add(), and remove().
+Was not altered at all.
