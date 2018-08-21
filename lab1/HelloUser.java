@@ -3,7 +3,7 @@
 // Prints greeting to stdout, then prints out some environment information.
 // Compile by typing javac HelloUser.java; run by typing java HelloUser.
 // Name: Sophia Tacderas
-// ID: 1465379
+// ID: *******
 // Class: CMPS 12M
 //-----------------------------------------------------------------------------
 class HelloUser{
