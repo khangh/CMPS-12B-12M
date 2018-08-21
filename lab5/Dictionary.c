@@ -1,7 +1,6 @@
 /**
  * File: Dictionary.c
  * Name: Sophia Tacderas, Maricris Bonzo
- * ID: 1465379, 1319731
  * Due: 11/10/16, 10 pm
  * Class: CMPS 12M
  * Assignment: lab 5
