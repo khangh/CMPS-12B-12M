@@ -5,7 +5,6 @@
 // the username.
 // Compile by typing javac HelloUser2.java; run by typing java HelloUser2.
 // Name: Sophia Tacderas
-// ID: *******
 // Class: CMPS 12M
 //-----------------------------------------------------------------------------
 class HelloUser2{
