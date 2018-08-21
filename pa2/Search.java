@@ -1,7 +1,6 @@
 // -----------------------------------------------------------------------------
 // File: Search.java
 // Name: Sophia Tacderas
-// ID: 1465379
 // Due: 10/14/16, 10 pm
 // Class: CMPS 12B
 // Assignment: pa2
