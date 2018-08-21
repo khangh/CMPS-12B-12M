@@ -1,7 +1,6 @@
 /**
  * File: Dictionary.java
  * Name: Sophia Tacderas
- * ID: 1465379
  * Due: 12/2/16, 10 pm
  * Class: CMPS 12M
  * Assignment: lab 7
