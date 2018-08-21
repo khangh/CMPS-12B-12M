@@ -1,7 +1,6 @@
 // -----------------------------------------------------------------------------------
 // File: charType.c
 // Name: Sophia Tacderas
-// ID: 1465379
 // Due: 10/28/16, 10 pm
 // Class: CMPS 12M
 // Assignment: lab 4
