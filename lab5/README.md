@@ -1,1 +1,1 @@
-**Note:** I worked on this lab with a partner and she submitted all of our files on her end. I have uploaded all the files needed for this assignment here except for the Makefile (used to run Dictionary.c) and the README we created with details regarding our submission.
+**Note:** I worked on this lab with a partner and she submitted all of our files on her end. I have uploaded all the files needed for this assignment here except for the Makefile (used to run DictionaryClient.c) and the README we created with details regarding our submission.
