@@ -3,7 +3,6 @@
 # Run by typing make -f Makefile in the terminal.
 # File name: Makefile
 # Name: Sophia Tacderas
-# ID: *******
 # Class: CMPS 12M
 #--------------------------------------------------------
 HelloUser: HelloUser.class
