@@ -1,0 +1,16 @@
+----------------------------------------
+Name: Sophia Tacderas
+ID: 1465379
+Class: CMPS 12M
+Assignment: lab 7
+Due: 12/2/16, 10 pm
+----------------------------------------
+Files for this assignment:
+README
+Makefile
+Dictionary.java
+DictionaryInterface.java
+DuplicateKeyException.java
+KeyNotFoundException.java
+DictionaryClient.java
+----------------------------------------
