@@ -1,0 +1,18 @@
+Name: Sophia Tacderas
+ID: 1465379
+Class: CMPS 12B
+Assignment: pa2
+Files for this assignment: README, Makefile, and Search.java
+
+Search.java
+Takes at least two command line arguments: the name of the input file that contains
+a set of words (each separated by a new line), and at least one target word. The program
+searches for the target(s) in a String array that contains the set of words from the input
+file. The original respective line numbers for each word in the word array are stored in an
+integer array called lineNumber. (Combines/modifies code from mergeSort.java, binarySearch.java,
+and lineCount.java).
+
+Makefile:
+Runs Search.java on a terminal. Compile by typing make -f Makefile (as long as
+Search.java is included in the same directory), and then run by typing Search along with
+the program arguments.
