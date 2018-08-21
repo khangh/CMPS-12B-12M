@@ -1,0 +1,16 @@
+Name: Sophia Tacderas
+ID: 1465379
+Class: CMPS 12M-01E
+Assignment: Lab 2
+Files for this assignment: README, Makefile, FileReverse.java
+
+FileReverse.java
+Takes two command line arguments that give the names of the input and output files
+respectively. Reads each line of input, parses the tokens, then prints each token
+backwards to the output file on a line by itself. (Combines FileTokens.java and
+reverseArray1 code in Reverse.java).
+
+Makefile:
+Runs FileReverse.java on a terminal. Compile by typing make -f Makefile (as long as
+FileReverse.java is included in the same directory), and then run by typing
+FileReverse.
