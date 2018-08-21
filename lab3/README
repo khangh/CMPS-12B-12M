@@ -1,0 +1,17 @@
+Name: Sophia Tacderas
+ID: 1465379
+Class: CMPS 12M
+Assignment: lab 3
+Files for this assignment: README, Makefile, and FileReverse.c
+
+FileReverse.c
+Same as FileReverse.java in lab 2 but in C. Takes two command line arguments that
+give the names of the input and output files respectively. Reads each line of input,
+parses the tokens, then prints each token backwards to the output file on a line by
+itself. (Combines FileIO.c and pseudocode in lab manual for stringReverse()).
+
+Makefile:
+Runs FileReverse.c on a terminal. Compile by typing make -f Makefile (as long as
+FileReverse.c is included in the same directory), and then run by typing FileReverse
+along with the program arguments.
+
