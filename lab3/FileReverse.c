@@ -1,7 +1,6 @@
 // -----------------------------------------------------------------------------
 // File: FileReverse.c
 // Name: Sophia Tacderas
-// ID: 1465379
 // Due: 10/21/16, 10 pm
 // Class: CMPS 12M
 // Assignment: lab 3
