@@ -1,0 +1,60 @@
+----------------------------------------
+Name: Sophia Tacderas, Maricris Bonzo
+ID: 1465379, 1319731
+Class: CMPS 12B
+Assignment: pa3
+Due: 11/4/16, 10 pm
+----------------------------------------
+Files for this assignment:
+README
+Makefile
+Dictionary.java
+DictionaryInterface.java
+DictionaryTest.java
+DictionaryClient.java
+KeyNotFoundException.java
+DuplicateKeyException.java
+----------------------------------------
+
+Makefile:
+Runs DictionaryClient on a terminal. Compile by typing make -f Makefile (as long as
+DictionaryClient and the other java files are included in the same directory),
+and then run by typing DictionaryClient. This Makefile contains wildcards and pattern
+substitutions that allow other java files existing in the same directory to be compiled
+along with DictionaryClient (the main class).
+
+Dictionary.java:
+Implements the Dictionary ADT interface with 7 ADT operations: isEmpty() (checks for empty
+dictionary), size() (returns number of items), lookup() (returns value associated with the
+argument key), insert() (adds an item to the list), delete() (deletes an item from the list),
+makeEmpty() (resets the dictionary to an empty state), and toString() (prints the entire
+dictionary). It contains a private class called Node, containing a key (String), a value (String),
+and a pointer to the next Node (Node next), which is initially set to null. The constructor for
+the Dictionary class sets the head of the list to null and the number of items (numItems) to zero.
+Finally, there is a private method called findKey() that returns a reference to the Node
+containing its argument key, or returns null if that Node does not exist. It helps for
+the implementation of insert(), delete() and lookup().
+This file borrows/modifies code from: IntegerList.java
+
+DictionaryInterface.java:
+Interface for the Dictionary ADT. No alterations made.
+
+DictionaryTest.java:
+Tests the Dictionary ADT operations. Based off of DictionaryClient.java.
+Borrows the try-catch code from IntegerListTest.java that allows a program to catch
+exceptions but continue running afterwards.
+
+DictionaryClient.java:
+Client module for testing Dictionary ADT. Intended to display a certain output stated in
+the pa3 lab manual. No alterations made.
+
+KeyNotFoundException.java:
+Throws exception if key is unable to be found.
+Borrowed from Examples\Lecture\IntegerListADT\ArrayWithExceptionsInterface\ListFullException.java,
+subclass of RuntimeException.
+
+DuplicateKeyException.java:
+Throws exception if inserting a duplicate key.
+Borrowed from Examples\Lecture\IntegerListADT\ArrayWithExceptionsInterface\ListFullException.java,
+subclass of RuntimeException.
+
