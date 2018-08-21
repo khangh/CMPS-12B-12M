@@ -1,0 +1,13 @@
+Name: Sophia Tacderas
+ID: 1465379
+Class: CMPS 12B
+Assignment: pa1
+
+Files from this assignment: README, Makefile, Recursion.java
+
+Recursion.java: Runs five recursive functions, three of which involve reversing an
+integer array in different ways, and two that find the array index of the maximum
+and minimum elements of the array.
+
+Makefile: Compiles Recursion.java. Do this by typing make -f Makefile in the terminal.
+Run by then typing Recursion.
