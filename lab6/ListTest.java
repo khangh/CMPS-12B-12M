@@ -1,7 +1,6 @@
 /**
  * File: ListTest.java
  * Name: Sophia Tacderas
- * ID: 1465379
  * Due: 11/18/16, 10 pm
  * Class: CMPS 12M
  * Assignment: lab 6
