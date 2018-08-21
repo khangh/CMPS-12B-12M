@@ -1,0 +1,28 @@
+#------------------------------------------------------------------------------
+# A Makefile with macros; runs HelloUser jar file.
+# Run by typing make -f Makefile2 in the terminal.
+# File name: Makefile2
+# Name: Sophia Tacderas
+# ID: 1465379
+# Class: CMPS 12M
+#------------------------------------------------------------------------------
+
+JAVASRC = HelloUser.java
+SOURCES = README Makefile $(JAVASRC)
+MAINCLASS = HelloUser
+CLASSES = HelloUser.class
+JARFILE = HelloUser
+
+all: $(JARFILE)
+
+$(JARFILE): $(CLASSES)
+	echo Main-class: $(MAINCLASS) > Manifest
+	jar cvfm $(JARFILE) Manifest $(CLASSES)
+	rm Manifest
+	chmod +x $(JARFILE)
+
+$(CLASSES): $(JAVASRC)
+	javac -Xlint $(JAVASRC)
+
+clean:
+	rm $(CLASSES) $(JARFILE)
