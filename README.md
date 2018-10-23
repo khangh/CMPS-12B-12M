@@ -1,5 +1,5 @@
 # CMPS-12B-12M
-Labs and programming assignments from CMPS 12B/M, all of which use either Java or C. Taken in Fall Quarter 2016 at UCSC with Charlie McDowell/Patrick Tantalo.
+Labs from CMPS 12B/M, all of which use either Java or C. Taken in Fall Quarter 2016 at UCSC with Charlie McDowell/Patrick Tantalo.
 
 ## Class Description
 **CMPS 12B: Introduction to Data Structures**
